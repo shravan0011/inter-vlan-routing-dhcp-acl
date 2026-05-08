@@ -36,7 +36,7 @@ interface fa0/0.30
  ip address 192.168.30.254 255.255.255.0
 
 - **Switch Uplink (Trunk Link to Router R1)**
-- **Use the port connected to the router (Fa0/1 or Fa0/24 depending on cabling):**<br>
+Use the port connected to the router (Fa0/1 or Fa0/24 depending on cabling):**<br>
 interface fa0/1 switchport mode trunk<br>
  switchport trunk allowed vlan 10,20,30<br>
  no shutdown
@@ -57,12 +57,12 @@ ip dhcp pool vlan30
  default-router 192.168.30.254
 
 - ** ACL Configuration
-Block HR (VLAN 10) from accessing IT (VLAN 30):
+Block HR (VLAN 10) from accessing IT (VLAN 30):<br><br>
 
-access-list 110 deny ip 192.168.10.0 0.0.0.255 192.168.30.0 0.0.0.255
-access-list 110 permit ip any any
-interface fa0/0.30
- ip access-group 110 out
+access-list 110 deny ip 192.168.10.0 0.0.0.255 192.168.30.0 0.0.0.255<br>
+access-list 110 permit ip any any<br>
+interface fa0/0.30<br>
+ ip access-group 110 out<br>
 
 
 ## Verification Commands
@@ -78,11 +78,11 @@ show interfaces trunk
 ping 192.168.20.1
 ping 192.168.30.1
 - Ping Test with ACL
-   - From HR VLAN (192.168.10.2) → IT VLAN (192.168.30.5)
-  Should fail (blocked by ACL 110).
-   - From HR VLAN (192.168.10.4) → Admin VLAN (192.168.20.9)
-  Should succeed (permitted by ACL 110).
-   - From Admin VLAN (192.168.20.2) → IT VLAN (192.168.30.5)
+   - From HR VLAN (192.168.10.2) → IT VLAN (192.168.30.5)<br>
+  Should fail (blocked by ACL 110).<br>
+   - From HR VLAN (192.168.10.4) → Admin VLAN (192.168.20.9)<br>
+  Should succeed (permitted by ACL 110).<br>
+   - From Admin VLAN (192.168.20.2) → IT VLAN (192.168.30.5)<br>
   Should succeed (no restriction).
 
 ## Purpose
