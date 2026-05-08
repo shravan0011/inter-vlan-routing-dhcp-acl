@@ -66,24 +66,24 @@ interface fa0/0.30
 ip access-group 110 out
 
 ## Verification Commands
-- **Show Access-Lists 
-    show access-lists
-- **Show DHCP Pools
-    show ip dhcp pool
-- **Show Interfaces
-    show ip interface brief
-- **Show Trunk Status (Switch)
-    show interfaces trunk
-- **Ping Tests
-    ping 192.168.20.1
-    ping 192.168.30.1
-- **Ping Test with ACL
+- Show Access-Lists 
+show access-lists
+- Show DHCP Pools
+show ip dhcp pool
+- Show Interfaces
+show ip interface brief
+- Show Trunk Status (Switch)
+show interfaces trunk
+- Ping Tests
+ping 192.168.20.1
+ping 192.168.30.1
+- Ping Test with ACL
    - From HR VLAN (192.168.10.2) → IT VLAN (192.168.30.5)
-     ## Should fail (blocked by ACL 110).
+  Should fail (blocked by ACL 110).
    - From HR VLAN (192.168.10.4) → Admin VLAN (192.168.20.9)
-     ## Should succeed (permitted by ACL 110).
+  Should succeed (permitted by ACL 110).
    - From Admin VLAN (192.168.20.2) → IT VLAN (192.168.30.5)
-     ## Should succeed (no restriction).
+  Should succeed (no restriction).
 
 ## Purpose
 This lab is designed for NOC and cybersecurity interview preparation, showcasing practical skills in:
