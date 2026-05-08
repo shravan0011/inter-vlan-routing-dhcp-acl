@@ -60,9 +60,10 @@ ip dhcp pool vlan30
 Block HR (VLAN 10) from accessing IT (VLAN 30):
 
 access-list 110 deny ip 192.168.10.0 0.0.0.255 192.168.30.0 0.0.0.255
- access-list 110 permit ip any any
-  interface fa0/0.30
-   ip access-group 110 out
+access-list 110 permit ip any any
+interface fa0/0.30
+ ip access-group 110 out
+
 
 ## Verification Commands
 - Show Access-Lists 
