@@ -35,7 +35,7 @@ interface fa0/0.20
 interface fa0/0.30
  ip address 192.168.30.254 255.255.255.0
 
-- **Switch Uplink (Trunk Link to Router R1)**
+- **Switch Uplink (Trunk Link to Router R1)**<br>
 Use the port connected to the router (Fa0/1 or Fa0/24 depending on cabling):**<br>
 interface fa0/1 switchport mode trunk<br>
  switchport trunk allowed vlan 10,20,30<br>
@@ -57,7 +57,7 @@ ip dhcp pool vlan30
  default-router 192.168.30.254
 
 - ** ACL Configuration
-Block HR (VLAN 10) from accessing IT (VLAN 30):<br><br>
+Block HR (VLAN 10) from accessing IT (VLAN 30):<br>
 
 access-list 110 deny ip 192.168.10.0 0.0.0.255 192.168.30.0 0.0.0.255<br>
 access-list 110 permit ip any any<br>
