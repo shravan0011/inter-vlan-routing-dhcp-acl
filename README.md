@@ -13,7 +13,6 @@ Here is the topology used in this project:
 
 ![Topology Diagram](topology.png)
 
-
 ##  VLAN Configuration
 - **VLAN 10 – HR Department**
   - Network: 192.168.10.0/24
