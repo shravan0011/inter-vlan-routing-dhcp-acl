@@ -36,10 +36,10 @@ interface fa0/0.30
  ip address 192.168.30.254 255.255.255.0
 
 - **Switch Uplink (Trunk Link to Router R1)**
-- Use the port connected to the router (Fa0/1 or Fa0/24 depending on cabling):**
-interface fa0/1
-switchport mode trunk
-switchport trunk allowed vlan 10,20,30
+- **Use the port connected to the router (Fa0/1 or Fa0/24 depending on cabling):**
+**interface fa0/1**
+**switchport mode trunk**
+**switchport trunk allowed vlan 10,20,30**
 no shutdown
  
 - **DHCP Configuration:
