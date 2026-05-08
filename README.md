@@ -42,7 +42,7 @@ interface fa0/1 switchport mode trunk<br>
  no shutdown
 
  
-- **DHCP Configuration:
+- DHCP Configuration:
   
  ip dhcp pool vlan10
  network 192.168.10.0 255.255.255.0
@@ -56,7 +56,7 @@ ip dhcp pool vlan30
  network 192.168.30.0 255.255.255.0
  default-router 192.168.30.254
 
-- ** ACL Configuration
+- ACL Configuration
 Block HR (VLAN 10) from accessing IT (VLAN 30):<br>
 
 access-list 110 deny ip 192.168.10.0 0.0.0.255 192.168.30.0 0.0.0.255<br>
