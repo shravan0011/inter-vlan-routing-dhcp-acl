@@ -41,7 +41,7 @@ interface fa0/0.30<br>
  ip address 192.168.30.254 255.255.255.0
 
 - **Switch Uplink (Trunk Link to Router R1)**<br><br>
- Use the port connected to the router (Fa0/1 or Fa0/24 depending on cabling):**<br>
+ Use the port connected to the router (Fa0/1 or Fa0/24 depending on cabling):<br>
  interface fa0/1 switchport mode trunk<br>
  switchport trunk allowed vlan 10,20,30<br>
  no shutdown
