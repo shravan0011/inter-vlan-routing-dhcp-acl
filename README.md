@@ -8,10 +8,10 @@ It includes:
 - ACLs for traffic control between departments
 - Trunk link configuration between switch and router
 
-## 🖼️ Network Topology
+##  Network Topology
 Here is the topology used in this project:
 
-![Topology Diagram](topology.png)
+![Topology Diagram](vlan-topology.png)
 
 ##  VLAN Configuration
 - **VLAN 10 – HR Department**
@@ -31,13 +31,13 @@ Here is the topology used in this project:
 
 - **Router R1 Sub-Interfaces**
   
-interface fa0/0.10
+interface fa0/0.10<br>
  ip address 192.168.10.254 255.255.255.0
 
-interface fa0/0.20
+interface fa0/0.20<br>
  ip address 192.168.20.254 255.255.255.0
 
-interface fa0/0.30
+interface fa0/0.30<br>
  ip address 192.168.30.254 255.255.255.0
 
 - **Switch Uplink (Trunk Link to Router R1)**<br><br>
