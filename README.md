@@ -11,7 +11,7 @@ It includes:
 ##  Network Topology
 Here is the topology used in this project:
 
-![Topology Diagram](vlan -topology.png.png
+![Topology Diagram](vlan-topology.png.png
 
 ##  VLAN Configuration
 - **VLAN 10 – HR Department**
