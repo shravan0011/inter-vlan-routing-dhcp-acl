@@ -15,23 +15,24 @@ Here is the topology used in this project:
 
 ## Configuration Screenshots
 
-![Configuration Screenshot](Screenshot 2026-04-22 133440.png)
+![Screenshot 1](screenshot1.png)
 
-![Configuration Screenshot](Screenshot 2026-04-23 140018.png)
+![Screenshot 2](screenshot2.png)
 
-![Configuration Screenshot](Screenshot 2026-04-23 140055.png)
+![Screenshot 3](screenshot3.png)
 
-![Configuration Screenshot](Screenshot 2026-04-23 141247.png)
+![Screenshot 4](screenshot4.png)
 
-![Configuration Screenshot](Screenshot 2026-04-23 141315.png)
+![Screenshot 5](screenshot5.png)
 
-![Configuration Screenshot](Screenshot 2026-04-23 141958.png)
+![Screenshot 6](screenshot6.png)
 
-![Configuration Screenshot](Screenshot 2026-04-23 142458.png)
+![Screenshot 7](screenshot7.png)
 
-![Configuration Screenshot](Screenshot 2026-04-23 142642.png)
+![Screenshot 8](screenshot8.png)
 
-![Configuration Screenshot](Screenshot 2026-04-23 143115.png)
+![Screenshot 9](screenshot9.png)
+
 
 ##  VLAN Configuration
 - **VLAN 10 – HR Department**
