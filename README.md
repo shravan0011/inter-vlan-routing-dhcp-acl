@@ -13,25 +13,6 @@ Here is the topology used in this project:
 
 ![Topology Diagram](vlan-topology.png.png)
 
-## Configuration Screenshots
-
-![Screenshot 1](screenshot1.png)
-
-![Screenshot 2](screenshot2.png)
-
-![Screenshot 3](screenshot3.png)
-
-![Screenshot 4](screenshot4.png)
-
-![Screenshot 5](screenshot5.png)
-
-![Screenshot 6](screenshot6.png)
-
-![Screenshot 7](screenshot7.png)
-
-![Screenshot 8](screenshot8.png)
-
-![Screenshot 9](screenshot9.png)
 
 
 ##  VLAN Configuration
