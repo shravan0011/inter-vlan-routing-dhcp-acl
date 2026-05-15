@@ -8,10 +8,30 @@ It includes:
 - ACLs for traffic control between departments
 - Trunk link configuration between switch and router
 
-##  Network Topology
+## Network Topology & Configuration
 Here is the topology used in this project:
 
 ![Topology Diagram](vlan-topology.png.png)
+
+## Configuration Screenshots
+
+![Configuration Screenshot](Screenshot 2026-04-22 133440.png)
+
+![Configuration Screenshot](Screenshot 2026-04-23 140018.png)
+
+![Configuration Screenshot](Screenshot 2026-04-23 140055.png)
+
+![Configuration Screenshot](Screenshot 2026-04-23 141247.png)
+
+![Configuration Screenshot](Screenshot 2026-04-23 141315.png)
+
+![Configuration Screenshot](Screenshot 2026-04-23 141958.png)
+
+![Configuration Screenshot](Screenshot 2026-04-23 142458.png)
+
+![Configuration Screenshot](Screenshot 2026-04-23 142642.png)
+
+![Configuration Screenshot](Screenshot 2026-04-23 143115.png)
 
 ##  VLAN Configuration
 - **VLAN 10 – HR Department**
