@@ -8,7 +8,7 @@ It includes:
 - ACLs for traffic control between departments
 - Trunk link configuration between switch and router
 
-## Network Topology & Configuration
+## Network Topology 
 Here is the topology used in this project:
 
 ![Topology Diagram](vlan-topology.png.png)
